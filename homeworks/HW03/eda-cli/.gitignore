@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Версия Python (для pyenv/rtx)
+.python-version
+
+# Файл блокировки версий uv
+uv.lock
