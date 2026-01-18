@@ -1,0 +1,39 @@
+{
+  "DecisionTree": {
+    "best_params": {
+      "max_depth": 3,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    },
+    "best_cv_score": 1.0,
+    "cv_folds": 5
+  },
+  "RandomForest": {
+    "best_params": {
+      "max_depth": 5,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 100
+    },
+    "best_cv_score": 1.0,
+    "cv_folds": 5
+  },
+  "GradientBoosting": {
+    "best_params": {
+      "learning_rate": 0.01,
+      "max_depth": 3,
+      "min_samples_leaf": 1,
+      "n_estimators": 50
+    },
+    "best_cv_score": 1.0,
+    "cv_folds": 5
+  },
+  "AdaBoost": {
+    "best_params": {
+      "learning_rate": 0.01,
+      "n_estimators": 50
+    },
+    "best_cv_score": 1.0,
+    "cv_folds": 5
+  }
+}

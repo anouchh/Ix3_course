@@ -1,0 +1,32 @@
+{
+  "Dummy": {
+    "Accuracy": 0.6766666666666666,
+    "F1-score": 0.0,
+    "ROC-AUC": 0.5
+  },
+  "LogisticRegression": {
+    "Accuracy": 1.0,
+    "F1-score": 1.0,
+    "ROC-AUC": 1.0
+  },
+  "DecisionTree": {
+    "Accuracy": 1.0,
+    "F1-score": 1.0,
+    "ROC-AUC": 1.0
+  },
+  "RandomForest": {
+    "Accuracy": 1.0,
+    "F1-score": 1.0,
+    "ROC-AUC": 1.0
+  },
+  "GradientBoosting": {
+    "Accuracy": 1.0,
+    "F1-score": 1.0,
+    "ROC-AUC": 1.0
+  },
+  "AdaBoost": {
+    "Accuracy": 1.0,
+    "F1-score": 1.0,
+    "ROC-AUC": 1.0
+  }
+}

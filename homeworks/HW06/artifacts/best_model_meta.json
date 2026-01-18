@@ -1,0 +1,29 @@
+{
+  "best_model_name": "LogisticRegression",
+  "best_model_type": "<class 'sklearn.pipeline.Pipeline'>",
+  "selection_criterion": "ROC-AUC (highest value)",
+  "parameters": {
+    "model_params": "N/A",
+    "cv_folds": 5,
+    "cv_scoring": "accuracy"
+  },
+  "test_metrics": {
+    "accuracy": 0.6766666666666666,
+    "f1_score": 0.0,
+    "roc_auc": 0.5
+  },
+  "training_info": {
+    "train_samples": 9000,
+    "test_samples": 3000,
+    "n_features": 29,
+    "random_state": 42
+  },
+  "comparison": {
+    "vs_dummy_accuracy_improvement": "0.0%",
+    "vs_dummy_roc_auc_improvement": "0.0%",
+    "rank": 1,
+    "total_models_compared": 6
+  },
+  "timestamp": "2026-01-18T23:50:03.127507",
+  "dataset": "S06-hw-dataset-01.csv"
+}
