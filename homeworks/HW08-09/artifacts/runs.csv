@@ -1,10 +1,7 @@
-E1,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=False",Adam,0.001,0,0.0,20,0.8388064971751412,0.5182617938114424
+experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
 E1,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=False",Adam,0.001,0,0.0,20,0.8388064971751412,0.5182617938114424
 E2,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.3; batchnorm=False",Adam,0.001,0,0.0,20,0.827242231638418,0.5346662094869182
 E3,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=True",Adam,0.001,0,0.0,20,0.8576977401129944,0.4429342215512432
-E3,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=True",Adam,0.001,0,0.0,20,0.8576977401129944,0.4429342215512432
-E4,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=True",Adam,0.001,0,0.0,19,0.8576977401129944,0.4429342215512432
-E1,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=False",Adam,0.001,0,0.0,20,0.8388064971751412,0.5182617938114424
 E4,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=True",Adam,0.001,0,0.0,19,0.8576977401129944,0.4429342215512432
 O1,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=True",Adam,0.1,0,0.0,6,0.7878707627118644,0.7174372545069894
 O2,EMNIST,42,"hidden=(256, 128); activation=relu; dropout=0.0; batchnorm=True",Adam,1e-05,0,0.0,6,0.6975635593220338,1.3982841914656472

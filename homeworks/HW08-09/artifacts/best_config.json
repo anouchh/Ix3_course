@@ -15,8 +15,9 @@
   "training": {
     "optimizer": "Adam",
     "lr": 0.001,
+    "momentum": 0,
     "weight_decay": 0.0,
-    "epochs": 50,
+    "epochs_trained": 19,
     "early_stopping_patience": 4,
     "early_stopping_min_delta": 0.0005
   }
