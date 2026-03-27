@@ -12,6 +12,9 @@ Thumbs.db
 *.swp
 *.swo
 .vs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 
 # Виртуальные окружения Python
 .venv/
