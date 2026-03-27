@@ -1,0 +1,17 @@
+{
+  "dataset": "STL10",
+  "experiment_id": "C4",
+  "architecture": "ResNet18 | pretrained, layer4+fc",
+  "seed": 42,
+  "num_classes": 10,
+  "image_size": 96,
+  "batch_size": 64,
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "epochs_trained": 5,
+  "best_epoch": 4,
+  "best_val_accuracy": 0.951171875,
+  "final_test_accuracy": 0.948125,
+  "transform": "resnet_transform",
+  "weight_decay": 0.0001
+}
