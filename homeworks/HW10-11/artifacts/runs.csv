@@ -1,7 +1,7 @@
 experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
-C1,classification,STL10,42,SimpleCNN | base_transform,Adam,0.001,8,0.5812500007450581,,,,,SimpleCNN without augmentations
-C2,classification,STL10,42,SimpleCNN | augment_transform,Adam,0.001,8,0.5242187492549419,,,,,"Same SimpleCNN as C1, only train augmentations changed"
-C3,classification,STL10,42,"ResNet18 | pretrained, fc_only",Adam,0.001,5,0.9287109375,,,,,"Pretrained ResNet18, frozen backbone, train fc only"
-C4,classification,STL10,42,"ResNet18 | pretrained, layer4+fc",Adam,0.0001,5,0.951171875,0.948125,,,,"Pretrained ResNet18, partial fine-tuning: layer4 + fc"
+C1,classification,STL10,42,SimpleCNN | base_transform,Adam,0.001,8,0.5871093757450581,,,,,SimpleCNN without augmentations
+C2,classification,STL10,42,SimpleCNN | augment_transform,Adam,0.001,8,0.5650390610098839,,,,,"Same SimpleCNN as C1, only train augmentations changed"
+C3,classification,STL10,42,"ResNet18 | pretrained, fc_only",Adam,0.001,5,0.931054688990116,,,,,"Pretrained ResNet18, frozen backbone, train fc only"
+C4,classification,STL10,42,"ResNet18 | pretrained, layer4+fc",Adam,0.0001,5,0.951171875,0.951625,,,,"Pretrained ResNet18, partial fine-tuning: layer4 + fc"
 V1,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50 pretrained; foreground = cat|dog vs background,,,0,,,0.980452166699247,0.8290465198511267,0.8149812126431135,V1: threshold=0.5
 V2,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50 pretrained; foreground = cat|dog vs background,,,0,,,0.9855812759071554,0.8079198340938532,0.7974581252540767,"V2: threshold=0.6, min_area=300"

@@ -9,9 +9,9 @@
   "optimizer": "Adam",
   "lr": 0.0001,
   "epochs_trained": 5,
-  "best_epoch": 4,
+  "best_epoch": 5,
   "best_val_accuracy": 0.951171875,
-  "final_test_accuracy": 0.948125,
+  "final_test_accuracy": 0.951625,
   "transform": "resnet_transform",
   "weight_decay": 0.0001
 }
