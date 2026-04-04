@@ -63,3 +63,6 @@ logs/
 # Данные
 **/data/
 **/datasets/
+
+#HW13
+homeworks/HW13/outputs/
