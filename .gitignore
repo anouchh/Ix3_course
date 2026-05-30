@@ -66,3 +66,11 @@ logs/
 
 #HW13
 homeworks/HW13/outputs/
+
+# Разрешить данные проекта
+!project/data/
+!project/data/*.csv
+
+# Разрешить src/data
+!project/src/data/
+!project/src/data/*.py

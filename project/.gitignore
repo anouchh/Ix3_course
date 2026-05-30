@@ -1,0 +1,23 @@
+# Виртуальное окружение
+.venv/
+
+# Секреты
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
